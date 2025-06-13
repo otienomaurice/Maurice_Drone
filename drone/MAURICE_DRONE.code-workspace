@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"gpio.h": "c",
+			"joystick.h": "c",
+			"transmitter.h": "c",
+			"string.h": "c",
+			"global.h": "c",
+			"lcd_16x2.h": "c",
+			"stdlib.h": "c"
+		}
+	}
+}

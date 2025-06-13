@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\common\\pico_time\\include",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2_common\\hardware_gpio\\include\\hardware",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2_common\\hardware_irq\\include\\hardware",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2_common\\hardware_i2c\\include\\hardware",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2_common\\pico_stdlib",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2_common\\pico_stdio_uart\\include\\pico",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2_common",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\common\\pico_stdlib",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\boards\\include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/common/pico_stdlib/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/boards/include/boards",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_pwm/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/include",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2040\\hardware_structs\\include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include",
+                "C:\\Users\\otienom\\Documents\\pico\\pico-sdk\\src\\rp2040\\hardware_regs\\include\\hardware\\regs",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_base/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_timer/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_irq/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_uart/include",
+                "${workspaceFolder}",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_pio/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include",
+                "C:/Users/otienom/Documents/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
