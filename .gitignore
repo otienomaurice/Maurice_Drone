@@ -1,0 +1,26 @@
+# Build output
+build/
+*.elf
+*.uf2
+*.bin
+*.hex
+*.map
+*.o
+*.d
+
+# CMake cache and build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# SDK clone or submodules
+pico_sdk/
+
+# VS Code settings
+.vscode/
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
