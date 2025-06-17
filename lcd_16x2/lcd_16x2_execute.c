@@ -7,8 +7,8 @@ void lcd_execute() {
     char line1[17];
     char line2[17];
 
-    snprintf(line1, sizeof(line1), "X_1: %-12lu", horizontal1);
-    snprintf(line2, sizeof(line2), "Y_1: %-12lu", vertical1);
+    snprintf(line1, sizeof(line1), "X_1: %-12lu", x_1);
+    snprintf(line2, sizeof(line2), "Y_1: %-12lu", y_1);
 
     lcd_write_line(0, line1);
     lcd_write_line(1, line2);

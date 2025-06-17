@@ -29,6 +29,9 @@ add_executable(maurice_drone
     lcd/tftmaster.c
     lcd/touchscreen.c
     Pico_to_pico_direct/pico_to_pico_direct.c
+    imu/imu.c
+    imu/MadgwickAHRS.c
+    barometer/barometer.c
    # ✅ renamed and included correctly
 )
 

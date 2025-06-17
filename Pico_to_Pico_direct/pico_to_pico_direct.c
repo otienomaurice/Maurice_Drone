@@ -21,15 +21,12 @@ void uart_send(){
     int idx = 0;
         while (uart_is_readable(UART_ID)) {
         char ch = uart_getc(UART_ID);
-        putchar(ch);  // Echo raw char
+       //putchar(ch);  // Echo raw char
 
         if (ch == '\n') {
             buffer[idx] = '\0';
-            if (sscanf(buffer, "%d %d", &horizontal1, &vertical1) == 2) {
-               // printf("\nParsed: horizontal = %d, vertical = %d\n", horizontal1, vertical1);
-            } else {
-               // printf("\nInvalid data: %s\n", buffer);
-            }
+            sscanf(buffer, "%d %d", &x_1, &y_1);
+            printf("\nParsed: x_1 = %d, y_1 = %d\n", x_1, y_1);
             idx = 0;
         } else if (idx < sizeof(buffer) - 1) {
             buffer[idx++] = ch;

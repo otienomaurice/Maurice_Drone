@@ -6,6 +6,7 @@
 #include "button.h"
 #include "ts_lcd.h"
 #include "string.h"
+#include "global/global.h"
 struct TSPoint p;
 char buffer[30];
 uint16_t x, y;
@@ -102,6 +103,6 @@ void ts_test()
     tft_fillRect(x - 1, y - 5, 2, 10, ILI9340_WHITE);
     tft_setCursor(20, 100);
     tft_setTextColor(ILI9340_WHITE);
-    sprintf(buffer, "x: %d, y: %d", x, y);
+    sprintf(buffer, "x =  %d, y = %d", x_1, y_1);
     tft_writeString(buffer);
 }

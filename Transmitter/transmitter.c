@@ -89,30 +89,13 @@ void transmit() {
         (y_1 >> 8) & 0xFF,
         y_1 & 0xFF
      };
-     sleep_ms(5000);
-     printf("Setting standby...\n");
+     sleep_ms(100);
      spi_write_register(0x01, 0x80 | 0x01); // REG_OP_MODE = LoRa + STDBY
-     printf("Setting standby...\n");
      spi_write_register(0x0D, 0x00);        // REG_FIFO_ADDR_PTR = 0
-     printf("Setting standby...\n");
      spi_write_burst(0x00, buffer, sizeof(buffer)); // REG_FIFO
-     printf("Setting standby...\n");
      spi_write_register(0x22, sizeof(buffer));      // REG_PAYLOAD_LENGTH = 4
-     printf("Setting standby...\n");
      spi_write_register(0x01, 0x80 | 0x03); // REG_OP_MODE = LoRa + TX
      printf("Transmitting...\n");
-
-     int timeout = 10000;
-     while (!(spi_read_register(0x12) & 0x08) && timeout--) { 
-        // REG_IRQ_FLAGS & TX_DONE
-        sleep_us(10);
-     }
-     if (timeout <= 0) {
-        printf("⚠️ TX Timeout\n");
-     } else {
-        printf("✅ TX Done\n");
-     }
-     printf("Setting standby...\n");
          spi_write_register(0x12, 0x08); // Clear TX_DONE flag in REG_IRQ_FLAGS
          printf("Sent: x_1=%d y_1=%d\n", x_1, y_1);
 }
