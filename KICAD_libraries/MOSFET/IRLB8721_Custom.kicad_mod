@@ -1,0 +1,5 @@
+(module IRLB8721_Custom (layer F.Cu) (tedit 5B30731C)
+  (pad 1 thru_hole oval (at 0.0 0) (size 1.5 1.5) (drill 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 2 thru_hole oval (at 2.54 0) (size 1.5 1.5) (drill 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 3 thru_hole oval (at 5.08 0) (size 1.5 1.5) (drill 0.8) (layers F.Cu F.Paste F.Mask))
+)

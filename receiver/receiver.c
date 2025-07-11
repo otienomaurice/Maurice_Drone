@@ -6,7 +6,7 @@
 #include "global/global.h"
 #include "stdio.h"
 #include "stdint.h"
-void spi_write_register_rx(uint8_t reg, uint8_t value) {
+ void spi_write_register_rx(uint8_t reg, uint8_t value) {
     uint8_t buf[2] = { reg | 0x80, value };
     gpio_put(RX_CS, 0);
     spi_write_blocking(spi1, buf, 2);

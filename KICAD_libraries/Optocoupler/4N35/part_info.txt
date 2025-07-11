@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=4N35
+PartCategory=Switch
+PackageCategory=Dual-In-Line Packages
+PinCount=6
+Version=1.1
+Released=2020-05-13 10:43:52
+Downloaded=2025-06-18 06:37:10
+3D=Y

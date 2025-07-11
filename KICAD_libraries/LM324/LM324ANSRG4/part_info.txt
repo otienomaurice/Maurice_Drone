@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM324ANSRG4
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=1.1
+Released=2021-04-21 05:31:38
+Downloaded=2025-06-18 06:46:18
+3D=Y

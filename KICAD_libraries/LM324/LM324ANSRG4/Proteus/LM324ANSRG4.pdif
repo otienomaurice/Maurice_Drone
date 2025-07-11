@@ -1,0 +1,180 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM324ANSRG4"
+   (description "Operational Amplifiers - Op Amps Quad Op Amp")
+   (family "ANA")
+   (package "SOIC127P780X200-14N")
+   (attribute "Datasheet Link" "https://www.ti.com/lit/ds/symlink/lm324a.pdf?ts=1618982715856&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM324A")
+   (attribute "Geometry.Height" "2mm")
+   (attribute "Mouser Part Number" "595-LM324ANSRG4")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM324ANSRG4?qs=O7ZcnZfxQnasFrwe49q%2FzA%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LM324ANSRG4")
+   (gate
+    (symbol "LM324ANSRG4")
+    (pin "1OUT" 1 PS)
+    (pin "1IN-" 2 PS)
+    (pin "1IN+" 3 PS)
+    (pin "VCC" 4 PS)
+    (pin "2IN+" 5 PS)
+    (pin "2IN-" 6 PS)
+    (pin "2OUT" 7 PS)
+    (pin "4OUT" 14 PS)
+    (pin "4IN-" 13 PS)
+    (pin "4IN+" 12 PS)
+    (pin "GND" 11 PS)
+    (pin "3IN+" 10 PS)
+    (pin "3IN-" 9 PS)
+    (pin "3OUT" 8 PS)
+   )
+  )
+  (symbol "LM324ANSRG4"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P780X200-14N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.725 5.5)
+      (pt 4.725 5.5)
+      (pt 4.725 -5.5)
+      (pt -4.725 -5.5)
+      (pt -4.725 5.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.65 5.1)
+      (pt 2.65 5.1)
+      (pt 2.65 -5.1)
+      (pt -2.65 -5.1)
+      (pt -2.65 5.1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.65 3.83)
+      (pt -1.38 5.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.3 5.1)
+      (pt 2.3 5.1)
+      (pt 2.3 -5.1)
+      (pt -2.3 -5.1)
+      (pt -2.3 5.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.475 4.51)
+      (pt -2.65 4.51))))
+   (leg 1 (pt -3.562 3.81) (padstack 0))
+   (leg 2 (pt -3.562 2.54) (padstack 0))
+   (leg 3 (pt -3.562 1.27) (padstack 0))
+   (leg 4 (pt -3.562 0) (padstack 0))
+   (leg 5 (pt -3.562 -1.27) (padstack 0))
+   (leg 6 (pt -3.562 -2.54) (padstack 0))
+   (leg 7 (pt -3.562 -3.81) (padstack 0))
+   (leg 8 (pt 3.562 -3.81) (padstack 0))
+   (leg 9 (pt 3.562 -2.54) (padstack 0))
+   (leg 10 (pt 3.562 -1.27) (padstack 0))
+   (leg 11 (pt 3.562 0) (padstack 0))
+   (leg 12 (pt 3.562 1.27) (padstack 0))
+   (leg 13 (pt 3.562 2.54) (padstack 0))
+   (leg 14 (pt 3.562 3.81) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.7 1.825 0 0 0))
+   )
+   (model "LM324ANSRG4.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
